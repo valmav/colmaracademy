@@ -42,6 +42,10 @@ html {
     height:2rem
   }
   
+  .main-content {
+    position: relative;
+    top: 4rem; /* To offset for fixed header. */
+  }
 
   .learnnew-section {
     display: flex;
@@ -49,6 +53,7 @@ html {
     padding: 2rem 1.5rem;
     background-color: #f3f3f3;
   }
+
   .learnnew1 img
   {
     width:100%;
@@ -68,9 +73,34 @@ html {
   .learnnew-section .learnnew2{
     /*flex: 1;
     */
+    display: flex;      
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
     padding: 2rem 2rem 1rem;
     
     margin: 0px 1.1875rem;
     background-color: white;
     width:40%;
+  }
+
+  /*
+  #learnnew-content{
+
+  }
+
+  #learnnew-content h1 {
+    font-size: 3.125rem;
+  }
+  
+  #learnnew-content h2 {
+    font-size: 2.25rem;
+  }
+*/
+  .button {
+    width: 300px;
+    height: 200;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: white;
   }
