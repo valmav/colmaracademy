@@ -53,18 +53,17 @@ html {
   .learnnew-section {
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0 2rem 1.5rem;
     background-color: #f3f3f3;
   }
 
   .learnnew1 img
   {
     width:100%;
-    height: auto;
-    /*object-fit: cover;*/
+    height: auto;   
   }
 
-  .learnnew-section .learnnew1{
+  .learnnew1{
     /*flex: 1;
     padding: 2rem 2rem 1rem;    
     margin: 0px 1.1875rem;
@@ -74,7 +73,7 @@ html {
     width:60%;
   }
 
-  .learnnew-section .learnnew2{
+  .learnnew2{
     /*flex: 1;
     */
     display: flex;      
@@ -113,3 +112,214 @@ html {
     font-size: 2.25rem;
     /*padding: 1.25rem;*/    
   }
+
+  .keeppractcng-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0 2rem 1.5rem;
+    background-color: white;
+  }
+
+  
+
+  .practc1{
+       
+    display: flex;      
+    flex-direction: column;  
+    justify-content:flex-start;
+    align-items:flex-start;
+    width:60%;
+  }
+
+  .practc1 h1 {
+    font-size: 3.125rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    /*margin-bottom: 1.875rem;*/
+  }
+
+  .practc1 h2{
+    color: #4a4a4a;
+    font-size: 1.75rem;
+    margin: 1.5rem 0;
+  }
+
+  .practc1 h3{
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .practc1 img
+  {
+    width:100%;
+    height: auto;   
+  }
+
+  .practc2{
+    display: flex;      
+    flex-direction: column;  
+    justify-content:flex-start;
+    align-items:flex-start;
+    width:40%;
+    margin-left: 1.5rem;
+    /*padding: 0rem 1.5rem;*/
+  }
+
+  .practc21{
+    display: flex;      
+    flex-direction: row;  
+    justify-content:center;
+    align-items:center;
+    padding-left: 1.5rem;
+  }
+
+  .practc211{
+    display: flex;      
+    flex-direction: row;  
+    justify-content:center;
+    align-items:center; 
+    width: 35%; 
+  }
+  .practc211 img
+  {
+    width:100%;
+    height: auto;   
+  }
+
+  .practc212{
+    display: flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:flex-start;
+    width: 65%;
+    padding: 0rem 1.5rem; 
+   }
+
+   .practc212 h1 {
+    color: #4a4a4a;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 2rem;  
+  }
+
+  .practc212 h2 {
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight:normal;
+    margin-top: 1rem;    
+  }
+
+  .practc212 p {
+    color: #4120bc;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-weight:400;
+    margin-top: 1rem;
+  }
+
+  .practc22{
+    display: flex;      
+    flex-direction: row;  
+    justify-content:center;
+    align-items:center;
+    padding: 1.5rem 0 0 1.5rem;
+  }
+
+  .practc221{
+    display: flex;      
+    flex-direction: row;  
+    justify-content:center;
+    align-items:center; 
+    width: 35%; 
+  }
+  .practc221 img
+  {
+    width:100%;
+    height: auto;   
+  }
+
+  .practc222{
+    display: flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:flex-start;
+    width: 65%;
+    padding: 0rem 1.5rem; 
+   }
+
+   .practc222 h1 {
+    color: #4a4a4a;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 2rem;  
+  }
+
+  .practc222 h2 {
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight:normal;
+    margin-top: 1rem;    
+  }
+  
+  .practc222 p {
+    color: #4120bc;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-weight:400;
+    margin-top: 1rem;
+  }
+
+  .practc23{
+    display: flex;      
+    flex-direction: row;  
+    justify-content:center;
+    align-items:center;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    background-color: #f3f3f3    
+  }
+
+  .practc231{
+    display: flex;      
+    flex-direction: row;  
+    justify-content:center;
+    align-items:center; 
+    width: 35%; 
+  }
+  .practc231 img
+  {
+    width:100%;
+    height: auto;   
+  }
+
+  .practc232{
+    display: flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:flex-start;
+    width: 65%;
+    padding: 0rem 1.5rem; 
+   }
+
+   .practc232 h1 {
+    color: #4a4a4a;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-top: 2rem;  
+  }
+
+  .practc232 h2 {
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight:normal;
+    margin-top: 1rem;    
+  }
+  
+  .practc232 p {
+    color: #4120bc;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-weight:400;
+    margin-top: 1rem;
+  }
+
