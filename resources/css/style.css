@@ -162,7 +162,7 @@ html {
     justify-content:flex-start;
     align-items:flex-start;
     width:40%;
-    margin-left: 1.5rem;
+    padding-left: 1.5rem;
     /*padding: 0rem 1.5rem;*/
   }
 
@@ -172,6 +172,7 @@ html {
     justify-content:center;
     align-items:center;
     padding-left: 1.5rem;
+    width: auto;  
   }
 
   .practc211{
@@ -193,7 +194,7 @@ html {
     justify-content:center;
     align-items:flex-start;
     width: 65%;
-    padding: 0rem 1.5rem; 
+    padding-left:1.5rem; 
    }
 
    .practc212 h1 {
@@ -224,6 +225,7 @@ html {
     justify-content:center;
     align-items:center;
     padding: 1.5rem 0 0 1.5rem;
+    width: auto;
   }
 
   .practc221{
@@ -245,7 +247,7 @@ html {
     justify-content:center;
     align-items:flex-start;
     width: 65%;
-    padding: 0rem 1.5rem; 
+    padding-left: 1.5rem; 
    }
 
    .practc222 h1 {
@@ -275,8 +277,9 @@ html {
     flex-direction: row;  
     justify-content:center;
     align-items:center;
-    padding: 1.5rem 0 1.5rem 1.5rem;
-    background-color: #f3f3f3    
+    padding: 1.5rem 0 1.5rem 0rem;
+    background-color: #f3f3f3;   
+    width: 100%;     
   }
 
   .practc231{
@@ -298,7 +301,7 @@ html {
     justify-content:center;
     align-items:flex-start;
     width: 65%;
-    padding: 0rem 1.5rem; 
+    padding-left: 1.5rem; 
    }
 
    .practc232 h1 {
