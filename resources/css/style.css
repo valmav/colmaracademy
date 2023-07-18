@@ -326,3 +326,28 @@ html {
     margin-top: 1rem;
   }
 
+  .startlearn-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0 2rem 1.5rem;
+    background-color: #f3f3f3;
+  }
+
+  .startlearn-section h1 {
+    font-size: 3.125rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    /*margin-bottom: 1.875rem;*/
+  }
+
+  startlearncol1{
+
+  }
+
+  startlearncol2{
+
+  }
+
+  startlearncol3{
+
+  }
