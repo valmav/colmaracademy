@@ -328,7 +328,10 @@ html {
 
   .startlearn-section{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     padding: 2rem 0 2rem 1.5rem;
     background-color: #f3f3f3;
   }
@@ -340,14 +343,130 @@ html {
     /*margin-bottom: 1.875rem;*/
   }
 
-  startlearncol1{
+  .startlearnrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .startlearncol1{
+    display: inline-flex;      
+    flex-direction: column;  
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
 
   }
 
-  startlearncol2{
+  .startlearncol11{
+    display: inline-flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:center;
 
   }
 
-  startlearncol3{
+
+  .startlearncol11 img
+  {
+    width:auto;
+    height: auto;   
+  }
+
+  
+  .startlearncol12{
+    display: inline-flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:center;
 
   }
+
+
+  .startlearncol12 img
+  {
+    width:auto;
+    height: auto;   
+  }
+
+
+
+  .startlearncol2{
+    display: inline-flex;      
+    flex-direction: column;  
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+
+  }
+
+  .startlearncol21{
+    display: inline-flex;      
+    flex-direction: column;     
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  .startlearncol21 img
+  {
+    width:auto;
+    height: auto;   
+  }
+
+  .startlearncol22{
+    display: inline-flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  .startlearncol22 img
+  {
+    width:auto;
+    height: auto;   
+  }
+
+
+  .startlearncol3{
+    display: inline-flex;      
+    flex-direction: column;  
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+  }
+
+
+  .startlearncol31{
+    display: inline-flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  .startlearncol31 img
+  {
+    width:auto;
+    height: auto;   
+  }
+
+  .startlearncol32{
+    display: inline-flex;      
+    flex-direction: column;  
+    justify-content:center;
+    align-items:center;
+
+  }
+
+  .startlearncol32 img
+  {
+    width:auto;
+    height: auto;   
+  }
+
+
+
