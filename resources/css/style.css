@@ -41,6 +41,26 @@ html {
     height:2rem
   }
   
+  header .mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 760px) {
+    
+    header .desktop {
+      display: none;
+    }  
+  
+  
+    header .mobile {
+      display: flex;
+      width: 100%;
+      justify-content:space-evenly;
+      padding: 1rem 1.5rem;
+    }
+  
+  }
+
   .center {
     text-align: center;
   }
@@ -50,7 +70,7 @@ html {
     top: 4rem; /* To offset for fixed header. */
   }
 
-  .learnnew-section {
+  .desktop .learnnew-section {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 0 2rem 1.5rem;
@@ -64,18 +84,10 @@ html {
   }
 
   .learnnew1{
-    /*flex: 1;
-    padding: 2rem 2rem 1rem;    
-    margin: 0px 1.1875rem;
-    
-    background-color: white;
-    */
     width:60%;
   }
 
-  .learnnew2{
-    /*flex: 1;
-    */
+  .learnnew2{   
     display: flex;      
     flex-direction: column;  
     justify-content: center;
@@ -87,13 +99,13 @@ html {
     width:40%;
   }
 
-  .learnnew2 h1 {
+  .learnnew-section h1 {
     font-size: 3.125rem;
     font-weight: bolder;
     margin-bottom: 1.875rem;
   }
   
-  .learnnew2 h2 {
+  .learnnew-section h2 {
     font-size: 2.25rem;
     font-weight: 400;
     margin-bottom: 1.875rem;
@@ -113,6 +125,37 @@ html {
     /*padding: 1.25rem;*/    
   }
 
+  .mobile .learnnew-section
+  {
+    display:none;
+  }
+
+
+  @media only screen and (max-width: 760px) {
+    
+     .desktop .learnnew-section {
+      display: none;      
+    }  
+  
+  
+     .mobile .learnnew-section {
+      display: flex;
+      flex-direction: column;  
+      justify-content:flex-start;
+      align-items:flex-start;
+      padding: 1rem 1.5rem;
+      /*
+      justify-content:space-evenly;
+      padding: 1rem 1.5rem;
+      */
+    }
+
+    .mobile .learnnew-section  img{
+      /*width:600px;*/
+      width:100%;
+    }
+  
+  }
   .keeppractcng-section {
     display: flex;
     justify-content: space-evenly;
@@ -172,7 +215,8 @@ html {
     justify-content:center;
     align-items:center;
     padding-left: 0rem;
-    width: auto;  
+    width:100%;
+    /*width: auto;*/  
   }
 
   .practc211{
@@ -182,7 +226,7 @@ html {
     align-items:center; 
     width: 35%; 
   }
-  .practc211 img
+  .practc2 img
   {
     width:100%;
     height: auto;   
@@ -197,21 +241,21 @@ html {
     padding-left:1.5rem; 
    }
 
-   .practc212 h1 {
+   .practc2 h1 {
     color: #4a4a4a;
     font-size: 1.75rem;
     font-weight: bold;
     margin-top: 2rem;  
   }
 
-  .practc212 h2 {
+  .practc2 h2 {
     color: #4a4a4a;
     font-size: 1rem;
     font-weight:normal;
     margin-top: 1rem;    
   }
 
-  .practc212 p {
+  .practc2 p {
     color: #4120bc;
     font-family: Roboto;
     font-size: 1.25rem;
@@ -224,8 +268,8 @@ html {
     flex-direction: row;  
     justify-content:center;
     align-items:center;
-    padding: 1.5rem 0 0 0rem;
-    width: auto;
+    padding: 1.5rem 0 0 0rem;    
+    width: 100%;
   }
 
   .practc221{
@@ -235,11 +279,7 @@ html {
     align-items:center; 
     width: 35%; 
   }
-  .practc221 img
-  {
-    width:100%;
-    height: auto;   
-  }
+
 
   .practc222{
     display: flex;      
@@ -250,27 +290,7 @@ html {
     padding-left: 1.5rem; 
    }
 
-   .practc222 h1 {
-    color: #4a4a4a;
-    font-size: 1.75rem;
-    font-weight: bold;
-    margin-top: 2rem;  
-  }
-
-  .practc222 h2 {
-    color: #4a4a4a;
-    font-size: 1rem;
-    font-weight:normal;
-    margin-top: 1rem;    
-  }
-  
-  .practc222 p {
-    color: #4120bc;
-    font-family: Roboto;
-    font-size: 1.25rem;
-    font-weight:400;
-    margin-top: 1rem;
-  }
+ 
 
   .practc23{
     display: flex;      
@@ -289,11 +309,6 @@ html {
     align-items:center; 
     width: 35%; 
   }
-  .practc231 img
-  {
-    width:100%;
-    height: auto;   
-  }
 
   .practc232{
     display: flex;      
@@ -304,29 +319,6 @@ html {
     padding-left: 1.5rem; 
    }
 
-   .practc232 h1 {
-    color: #4a4a4a;
-    font-size: 1.75rem;
-    font-weight: bold;
-    margin-top: 2rem;  
-  }
-
-  .practc232 h2 {
-    color: #4a4a4a;
-    font-size: 1rem;
-    font-weight:normal;
-    margin-top: 1rem;    
-  }
-  
-  .practc232 p {
-    color: #4120bc;
-    font-family: Roboto;
-    font-size: 1.25rem;
-    font-weight:400;
-    margin-top: 1rem;
-  }
-
-
   .startlearn-section{
     display: block;
     width: 100%;
@@ -335,40 +327,27 @@ html {
   .heading{
     justify-content: center;
     display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;  
   }
-    /*
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 0 2rem 1.5rem;
-    background-color: #f3f3f3;
-    
-  }
-  */
 
-  .startlearn-section h1 {
+
+  .heading h1 {
     font-size: 3.125rem;
-    font-weight: bolder;
-    margin-top: 2rem;
-    /*margin-bottom: 1.875rem;*/
+    font-weight: bolder;    
   }
 
   .startlearn-section h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 2rem;
-    /*margin-bottom: 1.875rem;*/
+    margin-top: 2rem;    
   }
 
   .startlearnrow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  
+    padding:0rem 4.5rem;  
   }
    
   .course{
@@ -381,6 +360,181 @@ html {
 
   .course img
   {
+    display:flex;
     width:100%;
   }
   
+  .course h2 {
+    padding-left: 1rem;
+    color: #484848;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.course span {
+  font-weight: lighter;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  color: black;
+}
+
+.course p {
+  font-weight: lighter;
+  padding-left: 1rem;
+  width: 70%;
+  color: black;
+  margin-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.thesis-section{
+  display: block;
+  width: 100%;
+}
+
+
+.thesis-info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0 2rem 1.5rem;
+  background-color: white;
+}
+
+.thesis1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.thesis1 video{
+  width:100%;
+}
+
+.thesis-info h2 {
+  margin-top: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #484848;
+  margin-bottom: 1.5rem;  
+}
+
+.thesis1 p{
+  color: #A8A8A8;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.thesis2{
+  display: flex;      
+  flex-direction: column;  
+  justify-content:flex-start;
+  align-items:flex-start;
+  width:40%;
+  padding-left: 1.5rem;  
+}
+
+
+
+
+.thesis21{
+  display: flex;      
+  flex-direction: row;  
+  justify-content:center;
+  align-items:center;
+  padding-left: 0rem;
+  width:100%;
+  /*width: auto;*/  
+}
+
+.thesis211{
+  display: flex;      
+  flex-direction: row;  
+  justify-content:center;
+  align-items:center; 
+  width: 35%; 
+}
+.thesis2 img
+{
+  width:100%;
+  height: auto;   
+}
+
+.thesis212{
+  display: flex;      
+  flex-direction: column;  
+  justify-content:center;
+  align-items:flex-start;
+  width: 65%;
+  padding-left:1.5rem; 
+ }
+
+ .thesis2 h1 {
+  color: #4a4a4a;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 2rem;  
+}
+
+.thesis2 h2 {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight:normal;
+  margin-top: 1rem;    
+}
+
+.thesis2 p {
+  color: #4120bc;
+  font-family: Roboto;
+  font-size: 1.25rem;
+  font-weight:400;
+  margin-top: 1rem;
+}
+
+
+.thesis22{
+  display: flex;      
+  flex-direction: row;  
+  justify-content:center;
+  align-items:center;
+  padding: 1.5rem 0 1.5rem 0rem;
+  background-color: #f3f3f3;   
+  width: 100%;     
+}
+
+.thesis221{
+  display: flex;      
+  flex-direction: row;  
+  justify-content:center;
+  align-items:center; 
+  width: 35%; 
+}
+
+.thesis222{
+  display: flex;      
+  flex-direction: column;  
+  justify-content:center;
+  align-items:flex-start;
+  width: 65%;
+  padding-left:1.5rem; 
+ }
+
+ footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  padding: 1rem 1.5rem;
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer p {
+  flex-grow: 1;
+} 
