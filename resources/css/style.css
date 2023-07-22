@@ -156,7 +156,9 @@ html {
     }
   
   }
-  .keeppractcng-section {
+
+
+  .desktop .keeppractcng-section {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 0 2rem 1.5rem;
@@ -199,7 +201,7 @@ html {
     height: auto;   
   }
 
-  .practc2{
+  .desktop .practc2{
     display: flex;      
     flex-direction: column;  
     justify-content:flex-start;
@@ -209,7 +211,7 @@ html {
     /*padding: 0rem 1.5rem;*/
   }
 
-  .practc21{
+  .desktop .practc21{
     display: flex;      
     flex-direction: row;  
     justify-content:center;
@@ -219,20 +221,21 @@ html {
     /*width: auto;*/  
   }
 
-  .practc211{
+  .desktop .practc211{
     display: flex;      
     flex-direction: row;  
     justify-content:center;
     align-items:center; 
     width: 35%; 
   }
-  .practc2 img
+
+  .desktop .practc2 img
   {
     width:100%;
     height: auto;   
   }
 
-  .practc212{
+  .desktop .practc212{
     display: flex;      
     flex-direction: column;  
     justify-content:center;
@@ -241,21 +244,21 @@ html {
     padding-left:1.5rem; 
    }
 
-   .practc2 h1 {
+   .desktop .practc2 h1 {
     color: #4a4a4a;
     font-size: 1.75rem;
     font-weight: bold;
     margin-top: 2rem;  
   }
 
-  .practc2 h2 {
+  .desktop .practc2 h2 {
     color: #4a4a4a;
     font-size: 1rem;
     font-weight:normal;
     margin-top: 1rem;    
   }
 
-  .practc2 p {
+  .desktop .practc2 p {
     color: #4120bc;
     font-family: Roboto;
     font-size: 1.25rem;
@@ -263,7 +266,7 @@ html {
     margin-top: 1rem;
   }
 
-  .practc22{
+  .desktop .practc22{
     display: flex;      
     flex-direction: row;  
     justify-content:center;
@@ -272,7 +275,7 @@ html {
     width: 100%;
   }
 
-  .practc221{
+  .desktop .practc221{
     display: flex;      
     flex-direction: row;  
     justify-content:center;
@@ -281,7 +284,7 @@ html {
   }
 
 
-  .practc222{
+  .desktop .practc222{
     display: flex;      
     flex-direction: column;  
     justify-content:center;
@@ -292,7 +295,7 @@ html {
 
  
 
-  .practc23{
+   .desktop .practc23{
     display: flex;      
     flex-direction: row;  
     justify-content:center;
@@ -302,7 +305,7 @@ html {
     width: 100%;     
   }
 
-  .practc231{
+  .desktop .practc231{
     display: flex;      
     flex-direction: row;  
     justify-content:center;
@@ -310,7 +313,7 @@ html {
     width: 35%; 
   }
 
-  .practc232{
+  .desktop .practc232{
     display: flex;      
     flex-direction: column;  
     justify-content:center;
@@ -318,6 +321,101 @@ html {
     width: 65%;
     padding-left: 1.5rem; 
    }
+
+   .mobile .keeppractcng-section {
+    display: none;
+   }
+
+   @media only screen and (max-width: 760px) {
+    
+    .desktop .keeppractcng-section {
+     display: none;      
+   }  
+ 
+ 
+    .mobile .keeppractcng-section {
+     display: block;
+     padding: 1rem 1.5rem;     
+     /*
+     justify-content:space-evenly;
+     padding: 1rem 1.5rem;
+     */
+    }
+
+    .mobile .practc2{
+      display: flex;      
+      flex-direction: column;  
+      justify-content:flex-start;
+      align-items:flex-start;
+      width:100%;
+      /*padding: 2rem 2rem 2rem 1.5rem;
+      padding: 0rem 1.5rem;*/
+    }
+
+      
+    .mobile .practc21{
+      display: flex;      
+      flex-direction: column;  
+      justify-content:flex-start;
+      align-items:flex-start;
+      padding-left: 0rem;
+      width:100%;
+      /*width: auto;*/  
+    }
+  
+    
+  
+    .mobile .keeppractcng-section img
+    {
+      width:100%;         
+    }   
+  
+     .mobile .practc2 h1 {
+      color: #4a4a4a;
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin-top: 2rem;  
+    }
+  
+    .mobile .practc2 h2 {
+      color: #4a4a4a;
+      font-size: 1rem;
+      font-weight:normal;
+      margin-top: 1rem;    
+    }
+  
+    .mobile .practc2 p {
+      color: #4120bc;
+      font-family: Roboto;
+      font-size: 1.25rem;
+      font-weight:400;
+      margin-top: 1rem;
+    }
+  
+    .mobile .practc22{
+      display: flex;      
+      flex-direction: column;  
+      justify-content:flex-start;
+      align-items:flex-start;
+      padding: 1.5rem 0 0 0rem;    
+      width: 100%;
+    }   
+  
+     .mobile .practc23{
+      display: flex;      
+      flex-direction: column;  
+      justify-content:flex-start;
+      align-items:flex-start;
+      padding: 1.5rem 0 1.5rem 0rem;
+      background-color: #f3f3f3;   
+      width: 100%;     
+    }
+ 
+ }
+
+
+
+
 
   .startlearn-section{
     display: block;
