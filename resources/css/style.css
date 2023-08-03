@@ -526,7 +526,7 @@ header .mobile {
 }
 
 
-.thesis-section {
+.desktop .thesis-section {
   display: block;
   width: 100%;
 }
@@ -659,6 +659,33 @@ header .mobile {
   padding-left: 1.5rem;
 }
 
+
+
+.mobile .thesis-section {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .desktop .thesis-section {
+    display: none;
+  }
+  
+  .mobile .thesis-section {
+    display: block;   
+    padding: 1rem 1.5rem;
+    /*width: 100%;*/
+  }
+
+  .mobile .thesis-section video {
+    width: 100%;
+    object-fit: fill;    
+  }
+}
+
+
+
+
 footer .content {
   display: flex;
   align-items: center;
@@ -672,4 +699,11 @@ footer nav ul {
 
 footer p {
   flex-grow: 1;
+}
+
+@media only screen and (max-width: 760px) {
+
+  footer .desktop {
+    display: none;
+  }
 }
